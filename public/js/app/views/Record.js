@@ -1,8 +1,8 @@
 // Record.js
 // -------
-define(["jquery", "backbone", "models/Model", "text!templates/record.html"],
+define(["jquery", "backbone", "firebase", "models/Model", "text!templates/record.html"],
 
-    function($, Backbone, Model, template){
+    function($, Backbone, firebase, Model, template){
 
         var Record = Backbone.View.extend({
 

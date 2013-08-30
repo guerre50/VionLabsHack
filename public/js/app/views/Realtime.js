@@ -1,28 +1,14 @@
 // View.js
 // -------
-define(["jquery", "underscore", "backbone", "marionette", "models/Model", "text!templates/realtime.html"],
+define(["jquery", "underscore", "backbone", "marionette", "firebase", "models/Model", "text!templates/realtime.html"],
 
-    function($, _, Backbone, Marionette, Model, template){
+    function($, _, Backbone, Marionette, firebase, Model, template){
 
         var Realtime = Backbone.Marionette.ItemView.extend({
 
             template: _.template(template),
-            className: "hola",
 
-            // The DOM Element associated with this view
-
-            // It binds elements to Jquery
-            ui: {
-                pepe: "#pepe"
-            },
-
-            // View constructor
             initialize: function() {
-            },
-
-            // View Event Handlers
-            events: {
-
             },
 
             onShow: function() {
@@ -30,29 +16,25 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Model", "text!
                 // Connect to firebase
                 window.firebase = new Firebase('https://vionlabshack.firebaseio.com');
 
+                var movie_id = 1337;
+
                 // Subscribe on changes to the movie with id 1337
-                window.firebase.child('movies/1337').on('child_added', function(input) {
+                window.firebase.child('movies/' + movie_id).on('child_added', function(input) {
 
                     // Find the subtitles of this position in the movie
                     var subtitles = "Benny, Do you think my tits are baggy?";
 
                     // Save subtitles
-                    window.firebase.child('movies/1337/' + input.name() + '/subtitles').set(subtitles);
+                    window.firebase.child('movies/' + movie_id + '/' + input.name() + '/subtitles').set(subtitles);
 
                     // Some output
-                    $('#realtime').append('<li>' + input.name() + ' - ' + input.val().timestamp + ' (' + subtitles + ')' + '</li>');
+                    $('#realtime').append('<li>' + subtitles + '</li>');
                 });
-            },
 
-            templateHelpers: {
-            },
-
-            remove: function() {
-
+                // Generate QR
+                var qr = "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=http%3A//10.0.1.57:8001/%23" + movie_id + "&chld=H|0";
+                $('#qr img').attr('src', qr);
             }
-
-            // Renders the view's template to the UI
-            //render: function() {}
 
         });
 

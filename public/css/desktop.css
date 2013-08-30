@@ -3,3 +3,9 @@
 @import url("commonstyles.css");
 @import url("flat-ui.css");
 @import url("video-js.css");
+
+#realtime {
+	margin-left: 20px;
+	width: 50%;
+	float: left;
+}

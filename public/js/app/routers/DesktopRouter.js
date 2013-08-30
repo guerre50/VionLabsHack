@@ -1,6 +1,6 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette", "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/Realtime"],
+define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/Realtime"],
 
     function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, Realtime) {
 
