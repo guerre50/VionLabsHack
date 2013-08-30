@@ -13,7 +13,7 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Model", "text!
 
             // It binds elements to Jquery
             ui: {
-
+                pepe: "#pepe"
             },
 
             // View constructor

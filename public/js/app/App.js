@@ -8,11 +8,12 @@ define(["jquery", "underscore", "backbone", "marionette"],
         app.addRegions({
             "header": "#header",
             "content": "#content",
-            "footer": "#footer"
+            "footer": "#footer",
+            "modal": "#modal"
         });
 
         app.addInitializer(function(options) {
-            
+
         });
 
         // Returns the View class

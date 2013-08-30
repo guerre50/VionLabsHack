@@ -1,8 +1,8 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette", "App", "views/LandingView", "views/TestView"],
+define(["jquery", "backbone", "marionette", "App", "views/LandingView", "views/TestView", "views/TodosView"],
 
-    function($, Backbone, Marionette, app, LandingView, TestView) {
+    function($, Backbone, Marionette, app, LandingView, TestView, TodosView) {
 
         var DesktopRouter = Backbone.Marionette.AppRouter.extend({
 
@@ -19,18 +19,22 @@ define(["jquery", "backbone", "marionette", "App", "views/LandingView", "views/T
                 // When there is no hash on the url, the home method is called
                 "": "index",
                 "test": "test",
+                "todos": "todos",
                 "*actions": "index"
 
             },
 
             index: function() {
                 // Instantiates a new view which will render the header text to the page
-                console.log(app.content);
                 app.content.show(new LandingView());
 
             },
 
-            Test: function() {
+            todos: function() {
+                app.content.show(new TodosView());
+            },
+            
+            test: function() {
                 app.content.show(new TestView());
             }
 

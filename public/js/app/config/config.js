@@ -31,7 +31,7 @@ require.config({
 
       "jasminejquery": "../libs/plugins/jasmine-jquery",
 
-      "bacbkone.firebase": "../libs/plugins/backbone-firebase",
+      "backbone.firebase": "../libs/plugins/backbone-firebase",
 
       // Flat-UI
 
@@ -52,6 +52,8 @@ require.config({
       "jquery.placeholder" : "../libs/flat-ui/jquery.placeholder",
 
       "jquery.stacktable" : "../libs/flat-ui/jquery.stacktable",
+
+      "firebase" : "../libs/firebase",
 
       // Marionette
 
@@ -113,7 +115,12 @@ require.config({
       "jasminejquery": ["jquery"],
 
       // Backbone.Firebase
-      "backbone.firebase": ["backbone"],
+      "backbone.firebase": {
+        "deps": ["backbone", "firebase"]
+      },
+
+      // Firebase
+      "firebase": ["jquery"],
 
       // Marionette
       "marionette": {
