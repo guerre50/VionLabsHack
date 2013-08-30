@@ -8,8 +8,7 @@ define(["jquery", "underscore", "backbone", "marionette"],
         app.addRegions({
             "header": "#header",
             "content": "#content",
-            "footer": "#footer",
-            "modal": "#modal"
+            "footer": "#footer"
         });
 
         app.addInitializer(function(options) {
