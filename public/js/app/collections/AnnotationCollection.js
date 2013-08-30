@@ -10,7 +10,7 @@ define(["jquery","backbone","models/Annotation", "firebase", "backbone.firebase"
       model: Annotation,
 
       // Save all of the todo items in a Firebase.
-      firebase: new Firebase("https://backbone.firebaseio.com"),
+      firebase: new Firebase("https://vion-labs-hack.firebaseio.com/"),
     });
 
     // Returns the Model class
