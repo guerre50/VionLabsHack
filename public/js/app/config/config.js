@@ -66,7 +66,9 @@ require.config({
 
       "json2": "../libs/plugins/json2",
 
-      "marionette": "../libs/plugins/backbone.marionette"
+      "marionette": "../libs/plugins/backbone.marionette",
+
+      "videojs": "../libs/video"
 
 
   },
@@ -125,6 +127,9 @@ require.config({
         "deps": ["backbone", "firebase"]
       },
 
+      "videojs":{
+        "exports": "videojs"
+      },
 
 
       // Marionette
