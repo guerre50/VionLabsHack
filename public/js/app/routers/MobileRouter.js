@@ -16,8 +16,6 @@ define(["jquery", "backbone", "models/Model", "views/Record", "collections/Colle
             // All of your Backbone Routes (add more)
             routes: {
                 
-                // When there is no hash bang on the url, the home method is called
-                "": "index",
                 ":id": "movie"
 
             },

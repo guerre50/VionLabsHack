@@ -25,12 +25,13 @@ define(["jquery", "backbone", "models/Model", "text!templates/record.html"],
 
             // View Event Handlers
             events: {
-                'click #record_impression': 'record_impression'
+                'click #realtime_button': 'realtime_button'
             },
 
-            record_impression: function(ev) {
+            realtime_button: function(ev) {
+
                 this.firebase.child('movies/' + this.movie_id).push({'timestamp': +new Date()}, function (data) {
-                    alert(data);
+                    //alert(data);
                 });
 
                 return false;

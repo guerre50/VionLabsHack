@@ -27,14 +27,19 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Model", "text!
 
             onShow: function() {
 
+                // Connect to firebase
                 window.firebase = new Firebase('https://vionlabshack.firebaseio.com');
 
+                // Subscribe on changes to the movie with id 1337
                 window.firebase.child('movies/1337').on('child_added', function(input) {
 
+                    // Find the subtitles of this position in the movie
                     var subtitles = "Benny, Do you think my tits are baggy?";
 
+                    // Save subtitles
                     window.firebase.child('movies/1337/' + input.name() + '/subtitles').set(subtitles);
 
+                    // Some output
                     $('#realtime').append('<li>' + input.name() + ' - ' + input.val().timestamp + ' (' + subtitles + ')' + '</li>');
                 });
             },
