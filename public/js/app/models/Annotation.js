@@ -15,7 +15,9 @@ define(["jquery", "backbone"],
             // Default values for all of the Model attributes
             defaults: {
                 timestamp: "1",
-                category: "quote"
+                category: "quote",
+                text: "Lorem Ipsum",
+                markers: parseInt(Math.random()*10)
             },
 
             // Gets called automatically by Backbone when the set and/or save methods are called (Add your own logic)

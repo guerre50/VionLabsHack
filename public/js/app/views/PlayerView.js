@@ -22,8 +22,7 @@ define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates
 
             onShow: function() {
                 this.video.show(new VideoView(this.movie));
-                console.log(this.movie.get("annotations"));
-                this.annotations.show(new AnnotationsView(this.movie.get("annotations")));
+                this.annotations.show(new AnnotationsView({collection: this.movie.get("annotations")}));
             },
 
             play: function(movie) {

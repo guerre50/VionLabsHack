@@ -5,22 +5,40 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Annotation", "
     function($, _, Backbone, Marionette, Model, template){
 
         var AnnotationView = Backbone.Marionette.ItemView.extend({
-            template: _.template(template),
+            _playing: false,
+            template: function(serializedModel) {
+                var data = this.model.toJSON();
+                data.playing = this._playing;
 
-            // It binds elements to Jquery
+                return _.template(template, data);
+            },
+
             ui: {
-
             },
 
             // View constructor
             initialize: function() {
-
+                _.bindAll(this);
             },
 
             // View Event Handlers
             events: {
-
+                "click .play": "play",
+                "click .stop": "stop"
             },
+
+            play: function() {
+                this.reproduce(true);
+            },
+
+            stop: function() {
+                this.reproduce(false);
+            },
+
+            reproduce: function(play) {
+                this._playing = play;
+                this.render();
+            }
 
         });
 
