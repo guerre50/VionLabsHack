@@ -3,8 +3,6 @@
 define(["jquery","backbone","models/TodoModel", "firebase", "backbone.firebase"],
 
   function($, Backbone, TodoModel, Firebase) {
-    console.log(Firebase);
-
     // Creates a new Backbone Collection class object
     var TodoCollection = Backbone.Firebase.Collection.extend({
 

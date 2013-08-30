@@ -21,6 +21,9 @@ require.config({
 
       "backbone": "../libs/backbone",
 
+      "firebase" : "../libs/firebase",
+
+
       // Plugins
       // -------
       "backbone.validateAll": "../libs/plugins/Backbone.validateAll",
@@ -52,8 +55,6 @@ require.config({
       "jquery.placeholder" : "../libs/flat-ui/jquery.placeholder",
 
       "jquery.stacktable" : "../libs/flat-ui/jquery.stacktable",
-
-      "firebase" : "../libs/firebase",
 
       // Marionette
 
@@ -114,13 +115,17 @@ require.config({
       // Jasmine-jQuery plugin
       "jasminejquery": ["jquery"],
 
+      // Firebase
+      "firebase": {
+        "exports": "Firebase"
+      },
+
       // Backbone.Firebase
       "backbone.firebase": {
         "deps": ["backbone", "firebase"]
       },
 
-      // Firebase
-      "firebase": ["jquery"],
+
 
       // Marionette
       "marionette": {
