@@ -8,6 +8,7 @@ define(["jquery","backbone","models/TodoModel", "firebase", "backbone.firebase"]
 
       // Reference to this collection's model.
       model: TodoModel,
+      // Adding a comment
 
       // Save all of the todo items in a Firebase.
       firebase: new Firebase("https://backbone.firebaseio.com"),
