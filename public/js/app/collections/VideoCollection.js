@@ -4,7 +4,7 @@ define(["jquery","backbone","models/TodoModel", "firebase", "backbone.firebase"]
 
   function($, Backbone, TodoModel, Firebase) {
     // Creates a new Backbone Collection class object
-    var TodoCollection = Backbone.Firebase.Collection.extend({
+    var VideoCollection = Backbone.Firebase.Collection.extend({
 
       // Reference to this collection's model.
       model: TodoModel,
