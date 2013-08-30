@@ -16,6 +16,7 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Video", "text!
             // View constructor
             initialize: function(options) {
                 this.model = options;
+
             },
 
             // View Event Handlers
@@ -27,6 +28,12 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Video", "text!
             //render: function() {}
 
         });
+
+        // videojs("example_video_1").ready(function(){
+            // var myPlayer = this;
+            // myPlayer.play();
+            // var whereYouAt = myPlayer.currentTime();
+        // });
 
         // Returns the View class
         return VideoView;
