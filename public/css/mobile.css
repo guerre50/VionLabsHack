@@ -2,3 +2,15 @@
 @import url("jquery.mobile.css");
 @import url("commonstyles.css");
 @import url("flat-ui.css");
+
+#realtime_button {
+	width: 100%;
+	height: 500px;
+	background: #2980b9;
+	display: block;
+	color: #ecf0f1;
+	font-size: 40px;
+	line-height: 500px;
+	border-radius: 20px;
+	text-align: center;
+}

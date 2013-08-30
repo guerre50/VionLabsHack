@@ -1,6 +1,6 @@
-define(["jquery", "underscore", "backbone", "marionette"],
+define(["jquery", "underscore", "backbone", "marionette", "videojs"],
 
-    function($, _, Backbone, Marionette){
+    function($, _, Backbone, Marionette, videojs){
 
         var App = Backbone.Marionette.Application,
             app = new App();
@@ -14,6 +14,8 @@ define(["jquery", "underscore", "backbone", "marionette"],
         app.addInitializer(function(options) {
 
         });
+
+        videojs.options.flash.swf = "video-js.swf";
 
         // Returns the View class
         return app;
