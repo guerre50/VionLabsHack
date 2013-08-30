@@ -1,8 +1,8 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/Realtime"],
+define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/Realtime", "models/Video"],
 
-    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, Realtime) {
+    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, Realtime, Video) {
 
         var DesktopRouter = Backbone.Marionette.AppRouter.extend({
 
