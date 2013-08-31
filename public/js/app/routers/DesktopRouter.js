@@ -71,7 +71,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 var movies = app.firebase.child('videos/1337');
                 movies.set({
                     title: "Modern Family",
-                    preview: "http://images.fanpop.com/images/image_uploads/The-Lord-of-the-Rings-lord-of-the-rings-113099_1280_1024.jpg",
+                    preview: "http://ia.media-imdb.com/images/M/MV5BODI1NzEzNTMxM15BMl5BanBnXkFtZTcwODc2NTk4Mg@@._V1._SX535_SY713_.jpg",
                     /*annotations: [
                         {
                             category: "quote",
@@ -89,7 +89,26 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                     annotations: []
                 });
 
+                var movie2 = app.firebase.child('videos/1338');
+                movie2.set({
+                    title: "Monsters",
+                    preview: "http://ia.media-imdb.com/images/M/MV5BMjE4MzMyNjExMl5BMl5BanBnXkFtZTcwMzI5NjM3Mw@@._V1._SX640_SY948_.jpg",
+                    annotations: []
+                });
 
+                var movie3 = app.firebase.child('videos/1339');
+                movie3.set({
+                    title: "16 Blocks",
+                    preview: "http://ia.media-imdb.com/images/M/MV5BMTQ1NDEwMzEwMl5BMl5BanBnXkFtZTcwNzM4MTEzMw@@._V1._SX640_SY946_.jpg",
+                    annotations: []
+                });
+
+                var movie4 = app.firebase.child('videos/1340');
+                movie4.set({
+                    title: "Expendables",
+                    preview: "http://ia.media-imdb.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1._SX640_SY949_.jpg",
+                    annotations: []
+                });
             }
 
         });
