@@ -37,7 +37,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
 
             reproduce: function(play) {
                 this._playing = play;
-                console.log("trigger");
                 app.vent.trigger('seek', this.model.get('timestamp'));
                 this.render();
             }

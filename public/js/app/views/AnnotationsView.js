@@ -16,15 +16,12 @@ define(["jquery", "underscore", "backbone", "marionette", "views/AnnotationView"
 
             // View constructor
             initialize: function() {
-
+                console.log(this.collection);
             },
 
             onShow: function() {
             },
 
-            // template for when collection is empty
-            //emptyView: ""
-            // View Event Handlers
             events: {
 
             }

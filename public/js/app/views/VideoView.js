@@ -5,8 +5,15 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
     function(app, $, _, Backbone, Marionette, Model, template){
 
         var VideoView = Backbone.Marionette.ItemView.extend({
+            template: function(serializedModel) {
+                var data = {};
+                if (this.model) {
+                    data =  this.model.toJSON();
+                }
 
-            template: _.template(template),
+                return _.template(template, data);
+            },
+
             player: undefined,
 
             // It binds elements to Jquery
@@ -17,7 +24,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             // View constructor
             initialize: function(options) {
                 _.bindAll(this);
-                
+
                 this.model = options;
                 app.vent.on('seek', this.seek);
             },

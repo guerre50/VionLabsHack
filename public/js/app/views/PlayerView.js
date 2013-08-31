@@ -6,7 +6,7 @@ define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates
 
         var PlayerView = Backbone.Marionette.Layout.extend({
             template: _.template(template),
-            movie: new Video(),
+            movie: undefined,
 
             // It binds elements to Jquery
             ui: {
@@ -21,8 +21,10 @@ define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates
             },
 
             onShow: function() {
-                this.video.show(new VideoView(this.movie));
-                this.annotations.show(new AnnotationsView({collection: this.movie.get("annotations")}));
+                if (this.movie) {
+                    this.video.show(new VideoView(this.movie));
+                    this.annotations.show(new AnnotationsView({video: this.movie.get("id"), collection: this.movie.get("annotations")}));
+                }
             },
 
             play: function(movie) {

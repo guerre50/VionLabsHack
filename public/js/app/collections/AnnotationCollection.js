@@ -9,8 +9,9 @@ define(["jquery","backbone", "App", "models/Annotation", "firebase", "backbone.f
       // Reference to this collection's model.
       model: Annotation,
 
-      // Save all of the todo items in a Firebase.
-      firebase: app.firebase.child("annotations"),
+      initialize: function(config) {
+        this.firebase = app.firebase.child("videos/" + config.video + "/annotations");
+      }
     });
 
     // Returns the Model class

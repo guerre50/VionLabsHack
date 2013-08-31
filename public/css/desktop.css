@@ -2,10 +2,34 @@
 @import url("bootstrap.css");
 @import url("commonstyles.css");
 @import url("flat-ui.css");
+@import url("flat-ui-extras.css");
 @import url("video-js.css");
 
 #realtime {
 	margin-left: 20px;
 	width: 50%;
 	float: left;
+}
+
+
+.thumbnail img {
+	border-radius: 4px;
+}
+
+.thumbnail .preview {
+	position: relative;
+}
+
+.thumbnail .overlay {
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	font-size: 60px;
+	opacity: 0;
+	transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+
+.thumbnail:hover .overlay {
+	opacity: 100 !important;
 }
