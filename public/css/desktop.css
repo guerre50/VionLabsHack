@@ -141,3 +141,12 @@ h1 {
 	overflow-y: auto;
 	width:90%;
 }
+
+footer {
+	padding: 8px!important;
+	text-align: center;
+	font-size: 18px;
+	color: white!important;
+	bottom: 0;
+	height: 100%;
+}
