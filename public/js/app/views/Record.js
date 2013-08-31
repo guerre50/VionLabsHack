@@ -1,8 +1,8 @@
 // Record.js
 // -------
-define(["jquery", "backbone", "firebase", "models/Model", "text!templates/record.html"],
+define(["App", "jquery", "backbone", "firebase", "models/Model", "text!templates/record.html"],
 
-    function($, Backbone, firebase, Model, template){
+    function(app, $, Backbone, firebase, Model, template){
 
         var Record = Backbone.View.extend({
 
@@ -17,9 +17,6 @@ define(["jquery", "backbone", "firebase", "models/Model", "text!templates/record
                 // Calls the view's render method
                 this.render();
 
-                // Connect to firebase
-                this.firebase = new Firebase('https://vionlabshack.firebaseio.com');
-
                 this.movie_id = window.location.hash.substr(1);
             },
 
@@ -30,7 +27,7 @@ define(["jquery", "backbone", "firebase", "models/Model", "text!templates/record
 
             realtime_button: function(ev) {
 
-                this.firebase.child('movies/' + this.movie_id).push({'timestamp': +new Date()}, function (data) {
+                app.firebase.child('videos/' + this.movie_id + '/annotations').push({'timestamp': +new Date(), 'result': false}, function (data) {
                     //alert(data);
                 });
 

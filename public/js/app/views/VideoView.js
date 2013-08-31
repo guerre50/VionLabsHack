@@ -33,6 +33,9 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             },
 
             seek: function(timestamp) {
+
+                console.log(timestamp);
+
                 this.player.currentTime(timestamp);
             },
 
@@ -48,16 +51,24 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
                     self.player = myPlayer;
 
-
                     var movie_id = 1337;
-                    app.firebase.child('movies/' + movie_id).on('child_added', function(input) {
-                        var whereYouAt = myPlayer.currentTime();
-                        var subtitles = self.getSubtitlesAt(whereYouAt);
-                        // Save subtitles
-                        app.firebase.child('movies/' + movie_id + '/' + input.name() + '/subtitles').set(subtitles);
 
-                        // Some output
-                        $('#realtime').append('<li>' + subtitles + '</li>');
+                    app.firebase.child('videos/' + movie_id + '/annotations').on('child_added', function(input) {
+
+                        var time = myPlayer.currentTime();
+                        var subtitles = self.getSubtitlesAt(time);
+
+                        console.log(time);
+                        console.log(subtitles);
+
+                        if(!time || typeof subtitles == 'undefined' || subtitles === []) {
+                            return false;
+                        }
+
+                        // Save subtitles
+                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/result').set(subtitles[0]);
+                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/subtitles').set(subtitles);
+                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/time').set(time);
                     });
 
                 });
@@ -70,6 +81,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             },
 
             on_keypress: function(e) {
+
                 // s letter
                 if (e.keyCode == 83) {
                     console.log(this.player.currentTime());
@@ -98,7 +110,10 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                         return (cue.startTime < end);
                     }
                 });
-                console.log(_.pluck(subtitles, 'text'));
+
+                var res = _.pluck(subtitles, 'text');
+                console.log(res);
+                return res;
             },
 
             remove: function(){

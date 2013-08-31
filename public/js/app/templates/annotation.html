@@ -1,17 +1,19 @@
-<div class="iconbar iconbar-horizontal iconbar-danger">
-	<ul>
-		<li><a> <%= text %></a></li>
-		<li><a class="fui-user">
-			<% if (markers > 0) { %>
-				<span class="iconbar-unread"><%= markers %></span>
-			<% }; %>
-		</a></li>
-		<li>
-			<% if (!playing) { %>
-				<a class="fui-play play">
-			<% } else { %>
-				<a class="fui-pause stop">
-			<% }; %>
-		</a></li>
-	</ul>
-</div>
+<% if (result) { %>
+	<div class="iconbar iconbar-horizontal iconbar-danger">
+		<ul>
+			<li><a> <%= result %></a></li>
+			<li><a class="fui-user">
+				<% if (markers > 0) { %>
+					<span class="iconbar-unread"><%= markers %></span>
+				<% }; %>
+			</a></li>
+			<li>
+				<% if (!playing) { %>
+					<a class="fui-play play">
+				<% } else { %>
+					<a class="fui-pause stop">
+				<% }; %>
+			</a></li>
+		</ul>
+	</div>
+<% }; %>
