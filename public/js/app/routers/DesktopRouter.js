@@ -62,11 +62,11 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
             },
 
             populateDB: function() {
-                var movies = app.firebase.child('videos');
-                movies.push({
-                    title: "test",
+                var movies = app.firebase.child('videos/1337');
+                movies.set({
+                    title: "Modern Family",
                     preview: "http://images.fanpop.com/images/image_uploads/The-Lord-of-the-Rings-lord-of-the-rings-113099_1280_1024.jpg",
-                    annotations: [
+                    /*annotations: [
                         {
                             category: "quote",
                             reviewed: false,
@@ -79,7 +79,8 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                             text: "Lorem Ipsum",
                             timestamp: "1000"
                         }
-                    ]
+                    ]*/
+                    annotations: []
                 });
 
 

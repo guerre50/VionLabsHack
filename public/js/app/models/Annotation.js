@@ -14,9 +14,7 @@ define(["jquery", "backbone"],
 
             // Default values for all of the Model attributes
             defaults: {
-                timestamp: "1000",
                 category: "quote",
-                text: "Lorem Ipsum",
                 reviewed: false,
                 markers: parseInt(Math.random()*10)
             },

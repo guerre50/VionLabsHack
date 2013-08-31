@@ -11,7 +11,6 @@
 	float: left;
 }
 
-
 .thumbnail img {
 	border-radius: 4px;
 }
@@ -32,4 +31,8 @@
 
 .thumbnail:hover .overlay {
 	opacity: 100 !important;
+}
+
+h1 {
+	text-align: center;
 }
