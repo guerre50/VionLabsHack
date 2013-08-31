@@ -8,6 +8,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
             template: _.template(template),
             player: undefined,
+            subtitle: undefined,
 
             // It binds elements to Jquery
             ui: {
@@ -20,6 +21,8 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                 
                 this.model = options;
                 app.vent.on('seek', this.seek);
+                $(document).bind('keypress', this.on_keypress);
+
             },
 
             seek: function(timestamp) {
@@ -28,6 +31,9 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
             onShow: function() {
                 var self = this;
+                $.getJSON('../../../movies/modernfamily.json', function(data) {
+                    self.subtitle = data.cues;
+                });
 
                 videojs("example_video_1").ready(function(){
                     var myPlayer = this;
@@ -48,15 +54,48 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     });
 
                 });
+
+
             },
 
             // View Event Handlers
             events: {
-
             },
 
-            getSubtitlesAt: function (currentTime) {
+            on_keypress: function(e) {
+                // s letter
+                if (e.keyCode == 83) {
+                    console.log(this.player.currentTime());
+                    var roundedTimeInSec = Math.round(this.player.currentTime());
+                    this.getSubtitlesAt(roundedTimeInSec);
+                }
                 
+            },
+
+            getSubtitlesAt: function (intSec) {
+                var halfOfInterval = 2;
+                var start = intSec - halfOfInterval;
+                var end = intSec + halfOfInterval;
+                var subtitles = _.filter(this.subtitle, function(cue){
+                    var startedBefore = start >= cue.startTime;
+                    if (startedBefore) {
+                        return (cue.endTime >= start) && (cue.endTime <= end);
+                    }
+
+                    var startedLater = start <= cue.startTime;
+                    if (startedLater) {
+                        var between = (cue.startTime < end) && (cue.endTime < end);
+                        if (between) {
+                            return true;
+                        }
+                        return (cue.startTime < end);
+                    }
+                });
+                console.log(_.pluck(subtitles, 'text'));
+            },
+
+            remove: function(){
+                $(document).unbind('keypress', this.on_keypress);
             }
 
             // Renders the view's template to the UI

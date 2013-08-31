@@ -1,0 +1,3416 @@
+{
+  "regions": [],
+  "cues": [
+    {
+      "id": "1",
+      "startTime": 5.209,
+      "endTime": 8.117,
+      "text": "How can we don't have the same\nnumber of containers and lids?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "How can we don't have the same\nnumber of containers and lids?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "startTime": 8.118,
+      "endTime": 9.919,
+      "text": "Why would they ever\nget separated?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Why would they ever\nget separated?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "startTime": 9.92,
+      "endTime": 12.321,
+      "text": "Built-up resentment,\nmoney issues,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Built-up resentment,\nmoney issues,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "startTime": 12.322,
+      "endTime": 14.223,
+      "text": "Met a younger lid.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Met a younger lid."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "startTime": 14.224,
+      "endTime": 15.491,
+      "text": "Huh?\nMm-hmm.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Huh?\nMm-hmm."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "startTime": 15.492,
+      "endTime": 17.326,
+      "text": "Mom, where's\nmy science homework?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Mom, where's\nmy science homework?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "startTime": 17.327,
+      "endTime": 19.128,
+      "text": "Uh, it's over there\non the table.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Uh, it's over there\non the table."
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "startTime": 19.129,
+      "endTime": 21.13,
+      "text": "So, alex, honey,\nwhat's going on?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "So, alex, honey,\nwhat's going on?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "startTime": 21.131,
+      "endTime": 22.381,
+      "text": "Anything exciting?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Anything exciting?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "startTime": 22.382,
+      "endTime": 23.216,
+      "text": "No.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No."
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "startTime": 23.217,
+      "endTime": 25.334,
+      "text": "Any boys?\nNo.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Any boys?\nNo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "12",
+      "startTime": 25.335,
+      "endTime": 27.57,
+      "text": "I'm feeling\na little bit disconnected",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'm feeling\na little bit disconnected"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "startTime": 27.571,
+      "endTime": 28.804,
+      "text": "From alex right now.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "From alex right now."
+          }
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "startTime": 28.805,
+      "endTime": 30.639,
+      "text": "Last week,\nI picked up her cellphone",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Last week,\nI picked up her cellphone"
+          }
+        ]
+      }
+    },
+    {
+      "id": "15",
+      "startTime": 30.64,
+      "endTime": 31.974,
+      "text": "Thinking it was mine,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Thinking it was mine,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "16",
+      "startTime": 31.975,
+      "endTime": 34.143,
+      "text": "And I accidentally read\na few flirty text messages",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "And I accidentally read\na few flirty text messages"
+          }
+        ]
+      }
+    },
+    {
+      "id": "17",
+      "startTime": 34.144,
+      "endTime": 36.295,
+      "text": "That were probably\nfrom a boy in her class,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "That were probably\nfrom a boy in her class,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "18",
+      "startTime": 36.296,
+      "endTime": 37.413,
+      "text": "Which is fine.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Which is fine."
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "startTime": 37.414,
+      "endTime": 39.581,
+      "text": "Or they're from a drifter.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Or they're from a drifter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "20",
+      "startTime": 39.582,
+      "endTime": 41.067,
+      "text": "Come on,\nisn't there something",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Come on,\nisn't there something"
+          }
+        ]
+      }
+    },
+    {
+      "id": "21",
+      "startTime": 41.068,
+      "endTime": 42.852,
+      "text": "You want to share\nwith your mommers?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You want to share\nwith your mommers?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "22",
+      "startTime": 42.853,
+      "endTime": 45.438,
+      "text": "Yeah.\nDon't call yourself \"mommers.\"",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Yeah.\nDon't call yourself \"mommers.\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "23",
+      "startTime": 48.141,
+      "endTime": 52.828,
+      "text": "He blew his lid\nwhen she tried to contain him.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "He blew his lid\nwhen she tried to contain him."
+          }
+        ]
+      }
+    },
+    {
+      "id": "24",
+      "startTime": 72.382,
+      "endTime": 74.25,
+      "text": "Okay.\nWhat do you think?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Okay.\nWhat do you think?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "25",
+      "startTime": 74.251,
+      "endTime": 76.018,
+      "text": "I like it.\nBut you don't love it.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I like it.\nBut you don't love it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "26",
+      "startTime": 76.019,
+      "endTime": 77.319,
+      "text": "No, I do. I love it.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No, I do. I love it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "27",
+      "startTime": 77.32,
+      "endTime": 79.388,
+      "text": "As much as you loved the other one? Ooh.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "As much as you loved the other one? Ooh."
+          }
+        ]
+      }
+    },
+    {
+      "id": "28",
+      "startTime": 82.559,
+      "endTime": 83.826,
+      "text": "Okay.\nMm.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Okay.\nMm."
+          }
+        ]
+      }
+    },
+    {
+      "id": "29",
+      "startTime": 83.827,
+      "endTime": 86.862,
+      "text": "The house is on fire. I only\nhave time to grab one shirt.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "The house is on fire. I only\nhave time to grab one shirt."
+          }
+        ]
+      }
+    },
+    {
+      "id": "30",
+      "startTime": 86.863,
+      "endTime": 88.23,
+      "text": "Which one do I take?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Which one do I take?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "31",
+      "startTime": 88.231,
+      "endTime": 90.065,
+      "text": "The correct answer\nis take lily.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "The correct answer\nis take lily."
+          }
+        ]
+      }
+    },
+    {
+      "id": "32",
+      "startTime": 90.066,
+      "endTime": 91.233,
+      "text": "After that.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "After that."
+          }
+        ]
+      }
+    },
+    {
+      "id": "33",
+      "startTime": 91.234,
+      "endTime": 92.501,
+      "text": "Uh, okay,\nthe blue one.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Uh, okay,\nthe blue one."
+          }
+        ]
+      }
+    },
+    {
+      "id": "34",
+      "startTime": 92.502,
+      "endTime": 94.236,
+      "text": "Because the gray one\nwashes me out.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Because the gray one\nwashes me out."
+          }
+        ]
+      }
+    },
+    {
+      "id": "35",
+      "startTime": 94.237,
+      "endTime": 95.571,
+      "text": "No, no. Cam, you -\nyou can't go wrong here.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No, no. Cam, you -\nyou can't go wrong here."
+          }
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "startTime": 95.572,
+      "endTime": 97.122,
+      "text": "Everything you've tried on\nlooks great.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Everything you've tried on\nlooks great."
+          }
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "startTime": 97.123,
+      "endTime": 98.424,
+      "text": "I love you\nin both of them.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I love you\nin both of them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "startTime": 98.425,
+      "endTime": 100.242,
+      "text": "Oh, you're so nice\nto me.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, you're so nice\nto me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "startTime": 104.414,
+      "endTime": 109.118,
+      "text": "Mihell has a problem with\npublic displays of affection.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Mihell has a problem with\npublic displays of affection."
+          }
+        ]
+      }
+    },
+    {
+      "id": "40",
+      "startTime": 109.119,
+      "endTime": 110.936,
+      "text": "Um, I remember once\nat a new year's eve party,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Um, I remember once\nat a new year's eve party,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "startTime": 110.937,
+      "endTime": 114.123,
+      "text": "Stroke of midnight,\nhe high-fived me.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Stroke of midnight,\nhe high-fived me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "startTime": 114.124,
+      "endTime": 115.774,
+      "text": "Two problems with that-",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Two problems with that-"
+          }
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "startTime": 115.775,
+      "endTime": 118.06,
+      "text": "One, gays don't high-five.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "One, gays don't high-five."
+          }
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "startTime": 118.061,
+      "endTime": 121.23,
+      "text": "O, gays don't high-five.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "O, gays don't high-five."
+          }
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "startTime": 121.231,
+      "endTime": 123.232,
+      "text": "I'm home!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'm home!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "46",
+      "startTime": 123.233,
+      "endTime": 125.868,
+      "text": "Mmm,\nwhat smells so good?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Mmm,\nwhat smells so good?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "startTime": 125.869,
+      "endTime": 128.337,
+      "text": "<i>I'm making chunchullo,\na traditional colombian dish,</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "I'm making chunchullo,\na traditional colombian dish,"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "startTime": 128.338,
+      "endTime": 130.155,
+      "text": "For dinner with the family\ntonight.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "For dinner with the family\ntonight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "startTime": 130.156,
+      "endTime": 131.54,
+      "text": "<i>Chunchullo.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "Chunchullo."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "startTime": 131.541,
+      "endTime": 133.309,
+      "text": "What is that-\nlike, uh, tacos?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "What is that-\nlike, uh, tacos?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "startTime": 133.31,
+      "endTime": 135.11,
+      "text": "Yes, like tacos.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Yes, like tacos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "startTime": 135.111,
+      "endTime": 136.312,
+      "text": "No, it isn't.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No, it isn't."
+          }
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "startTime": 136.313,
+      "endTime": 138.314,
+      "text": "It's the small intestine\nof a pig. Oh, geez.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "It's the small intestine\nof a pig. Oh, geez."
+          }
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "startTime": 138.315,
+      "endTime": 141.283,
+      "text": "Why can't we eat regular food\nlike normal people?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Why can't we eat regular food\nlike normal people?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "startTime": 141.284,
+      "endTime": 142.351,
+      "text": "I told you, jay.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I told you, jay."
+          }
+        ]
+      }
+    },
+    {
+      "id": "56",
+      "startTime": 142.352,
+      "endTime": 144.62,
+      "text": "My grandmother,\nwho rests in peace,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "My grandmother,\nwho rests in peace,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "57",
+      "startTime": 144.621,
+      "endTime": 146.889,
+      "text": "Has been coming to me\nin my dreams,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Has been coming to me\nin my dreams,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "startTime": 146.89,
+      "endTime": 149.475,
+      "text": "Telling me that\nI'm losing touch with my roots.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Telling me that\nI'm losing touch with my roots."
+          }
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "startTime": 149.476,
+      "endTime": 150.893,
+      "text": "See, this is awkward,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "See, this is awkward,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "60",
+      "startTime": 150.894,
+      "endTime": 153.395,
+      "text": "Because my dead uncle joe\ntold me to have steak tonight.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Because my dead uncle joe\ntold me to have steak tonight."
+          }
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "startTime": 153.396,
+      "endTime": 155.964,
+      "text": "No, no, no, jay.\nHaome respect.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No, no, no, jay.\nHaome respect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "startTime": 155.965,
+      "endTime": 158.133,
+      "text": "My grandmother\ncan hear you.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "My grandmother\ncan hear you."
+          }
+        ]
+      }
+    },
+    {
+      "id": "63",
+      "startTime": 158.134,
+      "endTime": 160.603,
+      "text": "What do you mean,\nshe can hear us?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "What do you mean,\nshe can hear us?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "startTime": 160.604,
+      "endTime": 161.687,
+      "text": "Well, in our culture,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Well, in our culture,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "65",
+      "startTime": 161.688,
+      "endTime": 163.572,
+      "text": "We believe that the dead\nare all around us.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "We believe that the dead\nare all around us."
+          }
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "startTime": 163.573,
+      "endTime": 164.49,
+      "text": "She's right, manny.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "She's right, manny."
+          }
+        ]
+      }
+    },
+    {
+      "id": "67",
+      "startTime": 164.491,
+      "endTime": 165.991,
+      "text": "She could be right here,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "She could be right here,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "startTime": 165.992,
+      "endTime": 168.777,
+      "text": "Her bony fingers reaching out\nfrom the grave.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Her bony fingers reaching out\nfrom the grave."
+          }
+        ]
+      }
+    },
+    {
+      "id": "69",
+      "startTime": 170.313,
+      "endTime": 171.48,
+      "text": "Yeah, keep it up, jay.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Yeah, keep it up, jay."
+          }
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "startTime": 171.481,
+      "endTime": 173.315,
+      "text": "There's already\none dead person in this room.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "There's already\none dead person in this room."
+          }
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "startTime": 173.316,
+      "endTime": 175.034,
+      "text": "You want to make it two?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You want to make it two?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "72",
+      "startTime": 175.035,
+      "endTime": 176.652,
+      "text": "I'm sorry.\nI've got a printer to install.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'm sorry.\nI've got a printer to install."
+          }
+        ]
+      }
+    },
+    {
+      "id": "73",
+      "startTime": 176.653,
+      "endTime": 178.337,
+      "text": "Oh, gloria,\nhave your grandmother",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, gloria,\nhave your grandmother"
+          }
+        ]
+      }
+    },
+    {
+      "id": "74",
+      "startTime": 178.338,
+      "endTime": 180.489,
+      "text": "Run me up an iced tea\nin about 10 minutes.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Run me up an iced tea\nin about 10 minutes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "startTime": 180.49,
+      "endTime": 182.958,
+      "text": "Yeah, she has a better chance\nof making that work than you!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Yeah, she has a better chance\nof making that work than you!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "76",
+      "startTime": 182.959,
+      "endTime": 185.21,
+      "text": "Why don't you save us\nthe stomping and the swearing",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Why don't you save us\nthe stomping and the swearing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "77",
+      "startTime": 185.211,
+      "endTime": 186.345,
+      "text": "And call phil?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "And call phil?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "78",
+      "startTime": 186.346,
+      "endTime": 187.429,
+      "text": "He's good at that stuff.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "He's good at that stuff."
+          }
+        ]
+      }
+    },
+    {
+      "id": "79",
+      "startTime": 187.43,
+      "endTime": 188.497,
+      "text": "Better than me?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Better than me?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "80",
+      "startTime": 188.498,
+      "endTime": 190.516,
+      "text": "<i>Phil's not better than me\nat anything,</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "Phil's not better than me\nat anything,"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "81",
+      "startTime": 190.517,
+      "endTime": 193.452,
+      "text": "Except maybe making that\nstupid sound with his mouth.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Except maybe making that\nstupid sound with his mouth."
+          }
+        ]
+      }
+    },
+    {
+      "id": "82",
+      "startTime": 198.925,
+      "endTime": 200.809,
+      "text": "* a what, what *",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "* a what, what *"
+          }
+        ]
+      }
+    },
+    {
+      "id": "83",
+      "startTime": 200.81,
+      "endTime": 202.611,
+      "text": "You spit on me.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You spit on me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "84",
+      "startTime": 202.612,
+      "endTime": 206.098,
+      "text": "Haley, honey, um, I need you\nto do something for me.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Haley, honey, um, I need you\nto do something for me."
+          }
+        ]
+      }
+    },
+    {
+      "id": "85",
+      "startTime": 206.099,
+      "endTime": 208.099,
+      "text": "Ugh.\nMom, my arm hurts.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Ugh.\nMom, my arm hurts."
+          }
+        ]
+      }
+    },
+    {
+      "id": "86",
+      "startTime": 208.1,
+      "endTime": 209.501,
+      "text": "Why don't you find out\nwhat it is",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Why don't you find out\nwhat it is"
+          }
+        ]
+      }
+    },
+    {
+      "id": "87",
+      "startTime": 209.502,
+      "endTime": 211.437,
+      "text": "Before you start making up\nexcuses to get out of it?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Before you start making up\nexcuses to get out of it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "88",
+      "startTime": 211.438,
+      "endTime": 213.172,
+      "text": "okay, what is it?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "okay, what is it?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "89",
+      "startTime": 213.173,
+      "endTime": 214.84,
+      "text": "I need you\nto talk to your sister.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I need you\nto talk to your sister."
+          }
+        ]
+      }
+    },
+    {
+      "id": "90",
+      "startTime": 214.841,
+      "endTime": 218.043,
+      "text": "I think that there's something\ngoing on with her and a boy.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I think that there's something\ngoing on with her and a boy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "91",
+      "startTime": 218.044,
+      "endTime": 219.511,
+      "text": "So?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "So?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "92",
+      "startTime": 219.512,
+      "endTime": 221.647,
+      "text": "<i>So, I am your mother,\nand it is my job to make sure</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "So, I am your mother,\nand it is my job to make sure"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "93",
+      "startTime": 221.648,
+      "endTime": 223.882,
+      "text": "That you girls don't\nget involved with a predator.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "That you girls don't\nget involved with a predator."
+          }
+        ]
+      }
+    },
+    {
+      "id": "94",
+      "startTime": 223.883,
+      "endTime": 225.684,
+      "text": "Okay, mom,\nstop watching \"dateline.\"",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Okay, mom,\nstop watching \"dateline.\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "95",
+      "startTime": 225.685,
+      "endTime": 227.402,
+      "text": "<i>And why can't you\njust talk to her?</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "And why can't you\njust talk to her?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "96",
+      "startTime": 227.403,
+      "endTime": 229.388,
+      "text": "<i>I have tried\nto talk to her.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "I have tried\nto talk to her."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "97",
+      "startTime": 229.389,
+      "endTime": 231.99,
+      "text": "I- she won't talk to me.\nYou know that.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I- she won't talk to me.\nYou know that."
+          }
+        ]
+      }
+    },
+    {
+      "id": "98",
+      "startTime": 231.991,
+      "endTime": 234.827,
+      "text": "That's because you get so weird\nevery time a boy comes near us.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "That's because you get so weird\nevery time a boy comes near us."
+          }
+        ]
+      }
+    },
+    {
+      "id": "99",
+      "startTime": 234.828,
+      "endTime": 236.795,
+      "text": "I- I just don't want\nyou girls to-",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I- I just don't want\nyou girls to-"
+          }
+        ]
+      }
+    },
+    {
+      "id": "100",
+      "startTime": 236.796,
+      "endTime": 239.131,
+      "text": "To make the same\nmistakes that you did? No!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "To make the same\nmistakes that you did? No!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "101",
+      "startTime": 239.999,
+      "endTime": 241.166,
+      "text": "No.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "No."
+          }
+        ]
+      }
+    },
+    {
+      "id": "102",
+      "startTime": 241.167,
+      "endTime": 242.551,
+      "text": "Mom, I'm not an idiot.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Mom, I'm not an idiot."
+          }
+        ]
+      }
+    },
+    {
+      "id": "103",
+      "startTime": 242.552,
+      "endTime": 243.836,
+      "text": "I pick up on things.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I pick up on things."
+          }
+        ]
+      }
+    },
+    {
+      "id": "104",
+      "startTime": 243.837,
+      "endTime": 245.67,
+      "text": "And I don't think\nthat you were the good girl",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "And I don't think\nthat you were the good girl"
+          }
+        ]
+      }
+    },
+    {
+      "id": "105",
+      "startTime": 245.671,
+      "endTime": 246.772,
+      "text": "You pretend you were.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You pretend you were."
+          }
+        ]
+      }
+    },
+    {
+      "id": "106",
+      "startTime": 246.773,
+      "endTime": 248.991,
+      "text": "Wow.\nThat is so untrue.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Wow.\nThat is so untrue."
+          }
+        ]
+      }
+    },
+    {
+      "id": "107",
+      "startTime": 248.992,
+      "endTime": 251.243,
+      "text": "<i>I was a very good girl.\nMm.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "I was a very good girl.\nMm."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "108",
+      "startTime": 251.244,
+      "endTime": 254.279,
+      "text": "Your kids don't need to know\nwho you were before you had them.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Your kids don't need to know\nwho you were before you had them."
+          }
+        ]
+      }
+    },
+    {
+      "id": "109",
+      "startTime": 254.28,
+      "endTime": 256.064,
+      "text": "They need to know\nwho you wish you were,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "They need to know\nwho you wish you were,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "110",
+      "startTime": 256.065,
+      "endTime": 258.65,
+      "text": "<i>And they need to try\nto live up to that person.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "And they need to try\nto live up to that person."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "111",
+      "startTime": 258.651,
+      "endTime": 259.951,
+      "text": "They're gonna fall short,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "They're gonna fall short,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "112",
+      "startTime": 259.952,
+      "endTime": 262.153,
+      "text": "<i>But better they fall short\nof the fake you</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "But better they fall short\nof the fake you"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "113",
+      "startTime": 262.154,
+      "endTime": 263.355,
+      "text": "<i>Than the real you.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "Than the real you."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "114",
+      "startTime": 263.356,
+      "endTime": 264.856,
+      "text": "Which is why\nwe don't hide anything.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Which is why\nwe don't hide anything."
+          }
+        ]
+      }
+    },
+    {
+      "id": "115",
+      "startTime": 264.857,
+      "endTime": 266.491,
+      "text": "<i>That's the opposite\nof what I just said.</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "That's the opposite\nof what I just said."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "116",
+      "startTime": 266.492,
+      "endTime": 269.261,
+      "text": "I was not listening.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I was not listening."
+          }
+        ]
+      }
+    },
+    {
+      "id": "117",
+      "startTime": 270.446,
+      "endTime": 271.58,
+      "text": "Ohh.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Ohh."
+          }
+        ]
+      }
+    },
+    {
+      "id": "118",
+      "startTime": 271.581,
+      "endTime": 273.582,
+      "text": "I'll say it again-\nI love you in paisley.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'll say it again-\nI love you in paisley."
+          }
+        ]
+      }
+    },
+    {
+      "id": "119",
+      "startTime": 273.583,
+      "endTime": 275.366,
+      "text": "Oh, let me lock the door\nand draw the curtains.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, let me lock the door\nand draw the curtains."
+          }
+        ]
+      }
+    },
+    {
+      "id": "120",
+      "startTime": 275.367,
+      "endTime": 276.701,
+      "text": "What does that mean?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "What does that mean?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "121",
+      "startTime": 276.702,
+      "endTime": 278.837,
+      "text": "It doesn't mean anything.\nGood.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "It doesn't mean anything.\nGood."
+          }
+        ]
+      }
+    },
+    {
+      "id": "122",
+      "startTime": 278.838,
+      "endTime": 280.071,
+      "text": "You know\nexactly what it means.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You know\nexactly what it means."
+          }
+        ]
+      }
+    },
+    {
+      "id": "123",
+      "startTime": 280.072,
+      "endTime": 281.64,
+      "text": "You won't kiss me\nin front of other people",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You won't kiss me\nin front of other people"
+          }
+        ]
+      }
+    },
+    {
+      "id": "124",
+      "startTime": 281.641,
+      "endTime": 283.108,
+      "text": "Because you're ashamed\nof who you are.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Because you're ashamed\nof who you are."
+          }
+        ]
+      }
+    },
+    {
+      "id": "125",
+      "startTime": 283.109,
+      "endTime": 285.343,
+      "text": "And, yes...I went there.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "And, yes...I went there."
+          }
+        ]
+      }
+    },
+    {
+      "id": "126",
+      "startTime": 285.344,
+      "endTime": 287.078,
+      "text": "Okay, you can't say,\n\"yes, I went there,\"",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Okay, you can't say,\n\"yes, I went there,\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "127",
+      "startTime": 287.079,
+      "endTime": 288.53,
+      "text": "When you go there\nall the time.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "When you go there\nall the time."
+          }
+        ]
+      }
+    },
+    {
+      "id": "128",
+      "startTime": 288.531,
+      "endTime": 291.116,
+      "text": "And, by the way, I'm the one\nwho makes speeches on airplanes",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "And, by the way, I'm the one\nwho makes speeches on airplanes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "129",
+      "startTime": 291.117,
+      "endTime": 292.784,
+      "text": "Every time someone\nlooks at us weird.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Every time someone\nlooks at us weird."
+          }
+        ]
+      }
+    },
+    {
+      "id": "130",
+      "startTime": 292.785,
+      "endTime": 294.452,
+      "text": "I'm the one\nwho gives my dad hell",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'm the one\nwho gives my dad hell"
+          }
+        ]
+      }
+    },
+    {
+      "id": "131",
+      "startTime": 294.453,
+      "endTime": 296.371,
+      "text": "When he refers to you\nas my \"friend.\"",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "When he refers to you\nas my \"friend.\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "132",
+      "startTime": 296.372,
+      "endTime": 298.356,
+      "text": "That's different.\nThat's confrontation.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "That's different.\nThat's confrontation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "133",
+      "startTime": 298.357,
+      "endTime": 299.808,
+      "text": "But you know\nwhat takes real strength?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "But you know\nwhat takes real strength?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "134",
+      "startTime": 299.809,
+      "endTime": 300.959,
+      "text": "Whining?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Whining?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "135",
+      "startTime": 300.96,
+      "endTime": 302.928,
+      "text": "Affection. Oh, this is insane.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Affection. Oh, this is insane."
+          }
+        ]
+      }
+    },
+    {
+      "id": "136",
+      "startTime": 302.929,
+      "endTime": 305.063,
+      "text": "Buying a shirt-\nit's not a kiss-worthy moment.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Buying a shirt-\nit's not a kiss-worthy moment."
+          }
+        ]
+      }
+    },
+    {
+      "id": "137",
+      "startTime": 305.064,
+      "endTime": 306.815,
+      "text": "Oh, I didn't know\nthere was an official list.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, I didn't know\nthere was an official list."
+          }
+        ]
+      }
+    },
+    {
+      "id": "138",
+      "startTime": 306.816,
+      "endTime": 308.3,
+      "text": "Please, tell us-\nwhat is on the list?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Please, tell us-\nwhat is on the list?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "139",
+      "startTime": 308.301,
+      "endTime": 309.901,
+      "text": "<i>I'll tell you\nwhat's not on the list-</i>",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "tagName": "i",
+            "localName": "i",
+            "childNodes": [
+              {
+                "textContent": "I'll tell you\nwhat's not on the list-"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "140",
+      "startTime": 309.902,
+      "endTime": 311.736,
+      "text": "Finding\njalapeño-stuffed olives,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Finding\njalapeño-stuffed olives,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "141",
+      "startTime": 311.737,
+      "endTime": 313.121,
+      "text": "Making the light on maple,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Making the light on maple,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "142",
+      "startTime": 313.122,
+      "endTime": 314.539,
+      "text": "Every time\nwe see a v.W.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Every time\nwe see a v.W."
+          }
+        ]
+      }
+    },
+    {
+      "id": "143",
+      "startTime": 314.54,
+      "endTime": 315.941,
+      "text": "You don't\nlike \"kiss-buggy\"?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "You don't\nlike \"kiss-buggy\"?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "144",
+      "startTime": 315.942,
+      "endTime": 317.209,
+      "text": "It's not a real game!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "It's not a real game!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "145",
+      "startTime": 317.21,
+      "endTime": 319.344,
+      "text": "It- it's just another way\nfor you to be needy.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "It- it's just another way\nfor you to be needy."
+          }
+        ]
+      }
+    },
+    {
+      "id": "146",
+      "startTime": 319.345,
+      "endTime": 321.546,
+      "text": "I- and I don't appreciate\nyou making me feel bad",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I- and I don't appreciate\nyou making me feel bad"
+          }
+        ]
+      }
+    },
+    {
+      "id": "147",
+      "startTime": 321.547,
+      "endTime": 323.849,
+      "text": "Because I can't live up\nto your impossible standards.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Because I can't live up\nto your impossible standards."
+          }
+        ]
+      }
+    },
+    {
+      "id": "148",
+      "startTime": 323.85,
+      "endTime": 325.517,
+      "text": "Nobody kisses\nat a bowling alley!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Nobody kisses\nat a bowling alley!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "149",
+      "startTime": 325.518,
+      "endTime": 327.936,
+      "text": "I almost got a turkey!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I almost got a turkey!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "150",
+      "startTime": 338.381,
+      "endTime": 340.549,
+      "text": "\"yello\"?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "\"yello\"?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "151",
+      "startTime": 340.55,
+      "endTime": 342.601,
+      "text": "Oh, hey, jay. Just a sec.\nI'll go get claire.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, hey, jay. Just a sec.\nI'll go get claire."
+          }
+        ]
+      }
+    },
+    {
+      "id": "152",
+      "startTime": 342.602,
+      "endTime": 343.902,
+      "text": "Oh, actually,\nit's you I'm calling.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Oh, actually,\nit's you I'm calling."
+          }
+        ]
+      }
+    },
+    {
+      "id": "153",
+      "startTime": 344.704,
+      "endTime": 345.854,
+      "text": "What was that?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "What was that?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "154",
+      "startTime": 345.855,
+      "endTime": 348.006,
+      "text": "The cat. There's a cat.\nWhat's up?",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "The cat. There's a cat.\nWhat's up?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "155",
+      "startTime": 348.007,
+      "endTime": 349.807,
+      "text": "Well, gloria's been missing\nher grandmother.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Well, gloria's been missing\nher grandmother."
+          }
+        ]
+      }
+    },
+    {
+      "id": "156",
+      "startTime": 349.808,
+      "endTime": 352.143,
+      "text": "I've been trying to get\nthis old picture of her printed,",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I've been trying to get\nthis old picture of her printed,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "157",
+      "startTime": 352.144,
+      "endTime": 353.811,
+      "text": "But I can't get\nthis new printer to-",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "But I can't get\nthis new printer to-"
+          }
+        ]
+      }
+    },
+    {
+      "id": "158",
+      "startTime": 353.812,
+      "endTime": 355.08,
+      "text": "I'll be right there.",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "I'll be right there."
+          }
+        ]
+      }
+    },
+    {
+      "id": "159",
+      "startTime": 355.081,
+      "endTime": 356.948,
+      "text": "Luke, grandpa needs us!",
+      "regionId": "",
+      "vertical": "",
+      "line": "auto",
+      "snapToLines": true,
+      "position": 50,
+      "size": 100,
+      "align": "middle",
+      "domTree": {
+        "tagName": "div",
+        "childNodes": [
+          {
+            "textContent": "Luke, grandpa needs us!"
+          }
+        ]
+      }
+    }
+  ]
+}
