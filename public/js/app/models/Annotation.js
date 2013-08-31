@@ -14,8 +14,8 @@ define(["jquery", "backbone"],
 
             // Default values for all of the Model attributes
             defaults: {
-                category: "quote",
-                reviewed: false,
+                //category: "quote",
+                //reviewed: false,
                 markers: parseInt(Math.random()*10)
             },
 

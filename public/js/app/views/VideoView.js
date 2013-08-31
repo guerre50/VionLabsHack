@@ -55,20 +55,24 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
                     app.firebase.child('videos/' + movie_id + '/annotations').on('child_added', function(input) {
 
-                        var time = myPlayer.currentTime();
-                        var subtitles = self.getSubtitlesAt(time);
-
-                        console.log(time);
-                        console.log(subtitles);
-
-                        if(!time || typeof subtitles == 'undefined' || subtitles === []) {
+                        if(typeof(result) != "undefined") {
                             return false;
                         }
 
-                        // Save subtitles
-                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/result').set(subtitles[0]);
-                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/subtitles').set(subtitles);
-                        app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/time').set(time);
+                        var time = myPlayer.currentTime();
+                        var subtitles = self.getSubtitlesAt(time);
+                        var result = subtitles.pop();
+
+                        if(time &&
+                            typeof subtitles != 'undefined' &&
+                            subtitles != [] &&
+                            typeof(res) != 'undefined') {
+
+                            // Save subtitles
+                            app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/result').set(result);
+                            app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/subtitles').set(subtitles);
+                            app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/time').set(time);
+                        }
                     });
 
                 });

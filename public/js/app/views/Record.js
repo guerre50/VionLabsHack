@@ -27,7 +27,7 @@ define(["App", "jquery", "backbone", "firebase", "models/Model", "text!templates
 
             realtime_button: function(ev) {
 
-                app.firebase.child('videos/' + this.movie_id + '/annotations').push({'timestamp': +new Date(), 'result': false}, function (data) {
+                app.firebase.child('videos/' + this.movie_id + '/annotations').push({'timestamp': +new Date()}, function (data) {
                     //alert(data);
                 });
 
