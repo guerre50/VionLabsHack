@@ -1,8 +1,8 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection"],
+define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection", "views/DesktopHeader", "views/DesktopFooter"],
 
-    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection) {
+    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection, DesktopHeader, DesktopFooter) {
 
         var DesktopRouter = Backbone.Marionette.AppRouter.extend({
 
@@ -11,6 +11,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 // Tells Backbone to start watching for hashchange events
                 Backbone.history.start();
                 app.router = this;
+                this.setDesktopTemplates();
             },
 
             // All of your Backbone Routes (add more)
@@ -26,6 +27,11 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 "populate": "populateDB"
                 //"*actions": "index",
 
+            },
+
+            setDesktopTemplates: function() {
+                app.footer.show(new DesktopFooter());
+                app.header.show(new DesktopHeader());
             },
 
             index: function() {
