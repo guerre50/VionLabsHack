@@ -16,12 +16,13 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
             // View constructor
             initialize: function(options) {
+                _.bindAll(this);
+                
                 this.model = options;
                 app.vent.on('seek', this.seek);
             },
 
             seek: function(timestamp) {
-                console.log("seek", timestamp);
                 this.player.currentTime(timestamp);
             },
 
