@@ -13,6 +13,8 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Model", "text!
                 console.log(data);
                 return _.template(template, data);
             },
+            id: "studyList",
+
 
             // The DOM Element associated with this view
 

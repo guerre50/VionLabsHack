@@ -134,3 +134,10 @@ h1 {
 	width: 45px!important;
 	height: 90%!important;
 }
+
+#studyList{
+	height: 80%;
+	position: fixed;
+	overflow-y: auto;
+	width:90%;
+}
