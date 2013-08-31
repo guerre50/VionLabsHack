@@ -61,7 +61,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                         console.log(time);
                         console.log(subtitles);
 
-                        if(!time || typeof subtitles == 'undefined') {
+                        if(!time || typeof subtitles == 'undefined' || subtitles === []) {
                             return false;
                         }
 
@@ -69,11 +69,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                         app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/result').set(subtitles[0]);
                         app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/subtitles').set(subtitles);
                         app.firebase.child('videos/' + movie_id + '/annotations/' + input.name() + '/time').set(time);
-
-                        // Some output
-                        //app.vent.trigger('add_subtitle', {'time':time, 'subtitles':subtitles});
-                        
-                        //$('#realtime').append('<li>' + subtitles + '</li>');
                     });
 
                 });
