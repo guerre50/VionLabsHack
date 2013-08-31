@@ -29,13 +29,30 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                 this.model = options;
                 app.vent.on('seek', this.seek);
                 $(document).bind('keypress', this.on_keypress);
+            },
 
+            annotation_highlighter: function()
+            {
+                $(document).trigger('render_annotations', this.player.currentTime());
+
+                if(typeof $(".annotation-highlighted:first").position() == 'undefined') {
+                    return;
+                }
+                
+                $('#annotations').scrollTo('.annotation-highlighted:first', {offsetTop: 200});
+
+               /* var pos = $(".annotation-highlighted:first").position().top;
+
+                console.log(pos);
+
+                if(pos > 0) {
+                    $('#annotations').animate({
+                        scrollTop: pos
+                    }, 20);
+                }*/
             },
 
             seek: function(timestamp) {
-
-                console.log(timestamp);
-
                 this.player.currentTime(timestamp);
             },
 
@@ -51,10 +68,12 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     var myPlayer = this;
                     myPlayer.play();
 
-                    console.log("show");
-                    self.player = myPlayer;
+                    app.player = self.player = myPlayer;
                     var movie_id = self.model.get("id");
                     console.log('movie_id', movie_id);
+
+                    // Start loop
+                    setInterval(self.annotation_highlighter, 400);
 
                     app.firebase.child('videos/' + movie_id + '/input').on('child_added', function(input) {
 
@@ -67,7 +86,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
                         var time = myPlayer.currentTime();
                         var subtitles = self.getSubtitlesAt(time);
-                        var result = subtitles.pop();
+                        var result = subtitles[0];
 
                         if(typeof(result) == 'undefined') {
                             console.log('Could not get subtitles');
@@ -123,7 +142,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             },
 
             getSubtitlesAt: function (intSec) {
-                var halfOfInterval = 2;
+                var halfOfInterval = 2.5;
                 var start = intSec - halfOfInterval;
                 var end = intSec + halfOfInterval;
                 var subtitles = _.filter(this.subtitle, function(cue){

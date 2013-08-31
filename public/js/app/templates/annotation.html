@@ -1,4 +1,8 @@
-<div class="iconbar iconbar-horizontal iconbar-danger non-selectable">
+<% if(typeof(time) != 'undefined' && current_time < time+1 && current_time > time-3.5) { %>
+	<div class="iconbar iconbar-horizontal iconbar-danger non-selectable annotation-highlighted">
+<% } else { %>
+	<div class="iconbar iconbar-horizontal iconbar-danger non-selectable">
+<% }; %>
 	<ul>
 		<li style="float: none;"><a> <%= result %></a></li>
 		<li style="float:right"><a class="fui-user">

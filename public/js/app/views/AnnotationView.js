@@ -6,9 +6,12 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
 
         var AnnotationView = Backbone.Marionette.ItemView.extend({
             _playing: false,
+            _current_time: 123,
             template: function(serializedModel) {
                 var data = this.model.toJSON();
+
                 data.playing = this._playing;
+                data.current_time = this._current_time;
 
                 return _.template(template, data);
             },
@@ -19,6 +22,12 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             // View constructor
             initialize: function() {
                 _.bindAll(this);
+
+                var self = this;
+                $(document).on('render_annotations', function(e, time) {
+                    self._current_time = time;
+                    self.render();
+                });
             },
 
             // View Event Handlers
@@ -36,8 +45,16 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             },
 
             reproduce: function(play) {
+
+                if(play) {
+                    app.player.play();
+                    app.vent.trigger('seek', this.model.get('time') - 4);
+                } else {
+                    app.player.pause();
+                }
+
                 this._playing = play;
-                app.vent.trigger('seek', this.model.get('time') - 7);
+
                 this.render();
             }
 
