@@ -52,7 +52,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     var movie_id = 1337;
                     app.firebase.child('movies/' + movie_id).on('child_added', function(input) {
                         var whereYouAt = myPlayer.currentTime();
-                        var subtitles = this.getSubtitlesAt(whereYouAt);
+                        var subtitles = self.getSubtitlesAt(whereYouAt);
                         // Save subtitles
                         app.firebase.child('movies/' + movie_id + '/' + input.name() + '/subtitles').set(subtitles);
 

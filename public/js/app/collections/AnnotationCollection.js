@@ -2,16 +2,17 @@
 // -------------
 define(["jquery","backbone", "App", "models/Annotation", "firebase", "backbone.firebase"],
 
-  function($, Backbone, app, Annotation, Firebase) {
+  function($, Backbone, app, Annotation) {
     // Creates a new Backbone Collection class object
     var AnnotationCollection = Backbone.Firebase.Collection.extend({
 
       // Reference to this collection's model.
       model: Annotation,
 
-      initialize: function(config) {
-        this.firebase = app.firebase.child("videos/" + config.video + "/annotations");
+      initialize: function() {
+        this.firebase = app.firebase.child("videos/"+ app.movieId + "/annotations")
       }
+
     });
 
     // Returns the Model class

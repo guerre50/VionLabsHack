@@ -11,7 +11,6 @@ define(["jquery", "underscore", "backbone", "App", "marionette", "models/Model",
                     data =  this.model.toJSON();
                 }
 
-                console.log(data);
                 return _.template(template, data);
             },
 
