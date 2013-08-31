@@ -101,7 +101,11 @@ h1 {
 }
 
 .iconbar-assign {
+
+}
 	
+.annotation-highlighted {
+	background: #e67e22!important;	
 }
 
 /* Let's get this party started */
@@ -125,4 +129,13 @@ h1 {
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(15,15,15,0.4); 
+}
+
+
+/* Hide the video play button */
+.vjs-big-play-button {
+	top: 5px!important;
+	left: 5px!important;
+	width: 55px!important;
+	height: 90%!important;
 }

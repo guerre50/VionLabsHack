@@ -6,24 +6,47 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
 
         var AnnotationView = Backbone.Marionette.ItemView.extend({
             _playing: false,
+            _current_time: 123,
             template: function(serializedModel) {
                 var data = this.model.toJSON();
                 var categoryData = this.getCategoryData(this.model.get("category"));
-
-
-                data.playing = this._playing;
                 data.categoryDiv = categoryData.div;
                 data.categoryColor = categoryData.color;
+
+                data.playing = this._playing;
+                data.current_time = this._current_time;
 
                 return _.template(template, data);
             },
 
             ui: {
+                annotationDiv: ".annotation-div",
+                playingIcon: ".playing-icon"
             },
 
             // View constructor
             initialize: function() {
                 _.bindAll(this);
+
+                var self = this;
+                $(document).on('render_annotations', function(e, time) {
+                    self._current_time = time;
+                    self.renderWithoutRestart();
+                });
+            },
+
+            renderWithoutRestart: function() {
+                var time = this.model.get("time"),
+                    currentTime = this._current_time, 
+                    highlighted = (typeof(time) != 'undefined' && currentTime < time + 1 && currentTime > time-3.5);
+
+                this.ui.annotationDiv.toggleClass("annotation-highlighted", highlighted);
+
+                if (this._playing) {
+                    this.ui.playingIcon[0].className ="playing-icon fui-play non-selectable play";
+                } else {
+                    this.ui.playingIcon[0].className = "playing-icon fui-pause non-selectable stop";
+                }
             },
 
             // View Event Handlers
@@ -56,8 +79,17 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             },
 
             reproduce: function(play) {
+
+                console.log("play");
+                if(play) {
+                    app.player.play();
+                    app.vent.trigger('seek', this.model.get('time') - 4);
+                } else {
+                    app.player.pause();
+                }
+
                 this._playing = play;
-                app.vent.trigger('seek', this.model.get('time') - 7);
+                this.render();
             },
 
             getCategoryData: function(category) {

@@ -1,8 +1,8 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection", "views/DesktopHeader", "views/DesktopFooter"],
+define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection", "views/DesktopHeader", "views/DesktopFooter", "views/StudyView", "collections/AnnotationCollection", "views/DictView", "models/Model"],
 
-    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection, DesktopHeader, DesktopFooter) {
+    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection, DesktopHeader, DesktopFooter, StudyView, AnnotationCollection, DictView, Model) {
 
         var DesktopRouter = Backbone.Marionette.AppRouter.extend({
 
@@ -24,7 +24,9 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 "player": "player",
                 "videos": "videos",
                 "videos/:id": "videos",
-                "populate": "populateDB",
+                "study/:id": "study",
+                "dict/:word": "dictionary",
+                "populate": "populateDB"
                 //"*actions": "index",
 
             },
@@ -61,6 +63,22 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 }
                 app.videos = new VideoCollection();
                 app.content.show(new VideosView({collection: app.videos}));
+            },
+
+            study: function(id) {
+                if (id) {
+                    app.movieId = id;
+                    app.content.show(new StudyView({"collection":new AnnotationCollection()}));
+                }
+            },
+
+            dictionary: function(word){
+                var url = "http://glosbe.com/gapi/translate?from=eng&dest=eng&tm=true&pretty=true&format=json&phrase=" + word + "&callback=?";
+                $.getJSON(url, function(data){
+                    var m = new Model({"word": data});
+                    app.content.show(new DictView(m));
+                });
+                
             },
 
             realtime: function() {
