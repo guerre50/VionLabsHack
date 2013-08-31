@@ -16,7 +16,6 @@ define(["jquery", "underscore", "backbone", "marionette", "views/AnnotationView"
 
             // View constructor
             initialize: function() {
-                console.log(this.collection);
             },
 
             onShow: function() {

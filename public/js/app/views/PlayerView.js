@@ -1,8 +1,8 @@
 // View.js
 // -------
-define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates/player.html", "views/VideoView", "views/AnnotationsView", "models/Video"],
+define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates/player.html", "views/VideoView", "views/AnnotationsView", "collections/AnnotationCollection", "models/Video"],
 
-    function($, _, app, Backbone, Marionette, template, VideoView, AnnotationsView, Video){
+    function($, _, app, Backbone, Marionette, template, VideoView, AnnotationsView, AnnotationCollection, Video){
 
         var PlayerView = Backbone.Marionette.Layout.extend({
             template: _.template(template),
@@ -23,7 +23,14 @@ define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates
             onShow: function() {
                 if (this.movie) {
                     this.video.show(new VideoView(this.movie));
-                    this.annotations.show(new AnnotationsView({video: this.movie.get("id"), collection: this.movie.get("annotations")}));
+
+                    this.annotations.show(new AnnotationsView({
+                        video: this.movie.get("id"), 
+                        collection:  new AnnotationCollection({
+                            video: this.movie.get("id"), 
+                            collection: this.movie.get("annotations")
+                        })
+                    }));
                 }
             },
 
