@@ -1,8 +1,8 @@
 // DesktopRouter.js
 // ----------------
-define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection", "views/DesktopHeader", "views/DesktopFooter"],
+define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/TestView", "views/PlayerView", "views/VideosView", "views/Realtime", "models/Video", "collections/VideoCollection", "views/DesktopHeader", "views/DesktopFooter", "views/StudyView", "collections/AnnotationCollection"],
 
-    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection, DesktopHeader, DesktopFooter) {
+    function($, Backbone, Marionette, app, LandingView, TestView, PlayerView, VideosView, Realtime, Video, VideoCollection, DesktopHeader, DesktopFooter, StudyView, AnnotationCollection) {
 
         var DesktopRouter = Backbone.Marionette.AppRouter.extend({
 
@@ -24,6 +24,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 "player": "player",
                 "videos": "videos",
                 "videos/:id": "videos",
+                "study/:id": "study",
                 "populate": "populateDB"
                 //"*actions": "index",
 
@@ -61,6 +62,15 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 }
                 app.videos = new VideoCollection();
                 app.content.show(new VideosView({collection: app.videos}));
+            },
+
+            study: function(id) {
+                if (id) {
+                    app.movieId = id;
+                    app.content.show(new StudyView({"collection":new AnnotationCollection()}));
+
+
+                }
             },
 
             realtime: function() {
