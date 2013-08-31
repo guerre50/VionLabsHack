@@ -1,6 +1,6 @@
-define(["jquery", "underscore", "backbone", "marionette", "videojs"],
+define(["jquery", "underscore", "backbone", "marionette", "videojs", "firebase"],
 
-    function($, _, Backbone, Marionette, videojs){
+    function($, _, Backbone, Marionette, videojs, firebase){
 
         var App = Backbone.Marionette.Application,
             app = new App();
@@ -16,6 +16,9 @@ define(["jquery", "underscore", "backbone", "marionette", "videojs"],
         });
 
         videojs.options.flash.swf = "video-js.swf";
+
+        // Connect to firebase
+        app.firebase = new Firebase('https://vionlabshack.firebaseio.com');
 
         // Returns the View class
         return app;
