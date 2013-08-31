@@ -12,7 +12,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
                 var categoryData = this.getCategoryData(this.model.get("category"));
                 data.categoryDiv = categoryData.div;
                 data.categoryColor = categoryData.color;
-
                 data.playing = this._playing;
                 data.current_time = this._current_time;
 
@@ -41,8 +40,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
                     highlighted = (typeof(time) != 'undefined' && currentTime < time + 1 && currentTime > time-3.5);
 
                 this.ui.annotationDiv.toggleClass("annotation-highlighted", highlighted);
-
-                if (this._playing) {
+                if (!this._playing) {
                     this.ui.playingIcon[0].className ="playing-icon fui-play non-selectable play";
                 } else {
                     this.ui.playingIcon[0].className = "playing-icon fui-pause non-selectable stop";
@@ -79,7 +77,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             },
 
             reproduce: function(play) {
-                console.log("play");
                 if(play) {
                     app.player.play();
                     app.vent.trigger('seek', this.model.get('time') - 4);
@@ -88,7 +85,9 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
                 }
 
                 this._playing = play;
-                this.render();
+                console.log(this._playing);
+                this.renderWithoutRestart();
+                //this.render();
             },
 
             getCategoryData: function(category) {

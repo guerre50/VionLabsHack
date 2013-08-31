@@ -68,7 +68,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
                     app.player = self.player = myPlayer;
                     var movie_id = self.model.get("id");
-                    console.log('movie_id', movie_id);
 
                     // Start loop
                     setInterval(self.annotation_highlighter, 400);
@@ -140,7 +139,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                 });
 
                 var res = _.pluck(subtitles, 'text');
-                console.log(res);
                 return res;
             },
 
