@@ -1,31 +1,21 @@
 // Collection.js
 // -------------
-define(["jquery","backbone","models/TodoModel", "firebase", "backbone.firebase"],
+define(["jquery","backbone","App", "models/Video"],
 
-  function($, Backbone, TodoModel, Firebase) {
+  function($, Backbone, app, Video) {
     // Creates a new Backbone Collection class object
     var VideoCollection = Backbone.Firebase.Collection.extend({
 
       // Reference to this collection's model.
-      model: TodoModel,
+      model: Video,
 
       // Save all of the todo items in a Firebase.
-      firebase: new Firebase("https://backbone.firebaseio.com"),
-
-      // Filter down the list of all todo items that are finished.
-      done: function() {
-        return this.filter(function(todo){ return todo.get('done'); });
-      },
-
-      // Filter down the list to only todo items that are still not finished.
-      remaining: function() {
-        return this.without.apply(this, this.done());
-      }
+      firebase: app.firebase.child("videos")
 
     });
 
     // Returns the Model class
-    return TodoCollection;
+    return VideoCollection;
 
   }
 

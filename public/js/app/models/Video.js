@@ -9,6 +9,7 @@ define(["jquery", "backbone", "collections/AnnotationCollection", "models/Annota
 
             // Model Constructor
             initialize: function() {
+                
             },
 
             // Default values for all of the Model attributes

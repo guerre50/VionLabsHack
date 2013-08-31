@@ -18,7 +18,7 @@ define(["jquery", "underscore", "backbone", "marionette", "videojs", "firebase"]
         videojs.options.flash.swf = "video-js.swf";
 
         // Connect to firebase
-        app.firebase = new Firebase('https://vionlabshack.firebaseio.com');
+        app.firebase = new Firebase('https://vion-labs-hack.firebaseio.com');
 
         // Returns the View class
         return app;

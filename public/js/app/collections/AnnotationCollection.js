@@ -1,8 +1,8 @@
 // Collection.js
 // -------------
-define(["jquery","backbone","models/Annotation", "firebase", "backbone.firebase"],
+define(["jquery","backbone", "App", "models/Annotation", "firebase", "backbone.firebase"],
 
-  function($, Backbone, Annotation, Firebase) {
+  function($, Backbone, app, Annotation, Firebase) {
     // Creates a new Backbone Collection class object
     var AnnotationCollection = Backbone.Firebase.Collection.extend({
 
@@ -10,7 +10,7 @@ define(["jquery","backbone","models/Annotation", "firebase", "backbone.firebase"
       model: Annotation,
 
       // Save all of the todo items in a Firebase.
-      firebase: new Firebase("https://vion-labs-hack.firebaseio.com/"),
+      firebase: app.firebase.child("annotations"),
     });
 
     // Returns the Model class

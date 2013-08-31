@@ -17,6 +17,7 @@ define(["jquery", "backbone"],
                 timestamp: "1",
                 category: "quote",
                 text: "Lorem Ipsum",
+                reviewed: false,
                 markers: parseInt(Math.random()*10)
             },
 
