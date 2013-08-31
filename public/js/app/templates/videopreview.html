@@ -3,15 +3,18 @@
 		<span class="overlay fui-play"></span>
 		<img src="<%= preview %>">
 	</div>
-	<div class="iconbar iconbar-horizontal iconbar-success">
+	<div class="iconbar iconbar-horizontal <%= categoryColor %>">
     <ul>
-      <li><a href="#fakelink" class="fui-user">
-        <span class="iconbar-unread">4</span>
+      <li style="margin-left:30px"><a class="fui-new">
+        <span class="iconbar-unread"><%= none %></span>
       </a></li>
-      <li><a href="#fakelink" class="fui-heart">
-        <span class="iconbar-unread">10</span></a></li>
-      <li><a href="#fakelink" class="fui-question">
-        <span class="iconbar-unread">22</span>
+      <li><a  class="fui-heart">
+        <span class="iconbar-unread"><%= quote %></span></a></li>
+      <li><a  class="fui-volume">
+        <span class="iconbar-unread"><%= pronunciation %></span>
+      </a></li>
+      <li><a class="fui-search">
+        <span class="iconbar-unread"><%= vocabulary %></span>
       </a></li>
     </ul>
 	</div>

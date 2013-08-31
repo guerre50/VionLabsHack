@@ -59,6 +59,7 @@ header {
 	position: fixed;
 	overflow-y: auto;
 	padding-right: 10px;
+	overflow-x: hidden;
 }
 
 .thumbnail {
@@ -97,6 +98,10 @@ h1 {
 	width: 100%;
 	border-radius: 0 0 6px 6px;
 	margin: 0 !important;
+}
+
+.iconbar-assign {
+	
 }
 
 /* Let's get this party started */

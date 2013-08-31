@@ -1,11 +1,21 @@
-<div class="iconbar iconbar-horizontal iconbar-danger non-selectable">
+<div class="iconbar iconbar-horizontal <%= categoryColor %> non-selectable">
 	<ul>
 		<li style="float: none;"><a> <%= result %></a></li>
-		<li style="float:right"><a class="fui-user">
-			<% if (markers > 0) { %>
-				<span class="iconbar-unread non-selectable"><%= markers %></span>
-			<% }; %>
-		</a></li>
+		<li style="width:60px; float: right; bottom: -10px; position: relative; padding-right: 10px">
+			<div class="btn-group select select-block mbl open">
+				<i class="dropdown-arrow dropdown-arrow-inverse"></i>
+				<button class="btn dropdown-toggle clearfix btn-huge btn-primary" data-toggle="dropdown" style="background-color: rgba(0,0,0,0.2)">
+					<span class="filter-option pull-left" style="overflow: visible;"><%= categoryDiv %></span>&nbsp;
+				</button>
+				<ul class="dropdown-menu dropdown-inverse category-selector" role="menu" style="overflow-y: auto; min-height: 80px; max-height: 491px; min-width: 30px !important; margin-left:6px">
+					<li rel="0" >
+						<a tabindex="-1" class="opt "><span class="pull-left"><span title="Quote" style="margin-left:7px;" class="category quote fui-heart"></span></span></a></li>
+					<li rel="1"><a tabindex="-1" class="opt "><span class="pull-left"><span title="Vocabulary" style="margin-left:7px;" class="category vocabulary fui-search"></span></span></a></li>
+					<li rel="2" >
+						<a tabindex="-1" class="opt "><span class="pull-left" style="left:5px;"><span title='Pronunciation' style="margin-left:7px;" class='category Pronunciation fui-volume'></span></span></a></li>
+				</ul>
+			</div>
+		</li>
 		<li style="float:right">
 			<% if (!playing) { %>
 				<a class="fui-play non-selectable play">
@@ -13,5 +23,6 @@
 				<a class="fui-pause non-selectable stop">
 			<% }; %>
 		</a></li>
+		
 	</ul>
 </div>

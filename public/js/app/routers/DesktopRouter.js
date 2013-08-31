@@ -24,7 +24,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
                 "player": "player",
                 "videos": "videos",
                 "videos/:id": "videos",
-                "populate": "populateDB"
+                "populate": "populateDB",
                 //"*actions": "index",
 
             },
