@@ -1,19 +1,17 @@
-<% if (result) { %>
-	<div class="iconbar iconbar-horizontal iconbar-danger non-selectable">
-		<ul>
-			<li style="float: none;"><a> <%= result %></a></li>
-			<li style="float:right"><a class="fui-user">
-				<% if (markers > 0) { %>
-					<span class="iconbar-unread non-selectable"><%= markers %></span>
-				<% }; %>
-			</a></li>
-			<li style="float:right">
-				<% if (!playing) { %>
-					<a class="fui-play non-selectable play">
-				<% } else { %>
-					<a class="fui-pause non-selectable stop">
-				<% }; %>
-			</a></li>
-		</ul>
-	</div>
-<% }; %>
+<div class="iconbar iconbar-horizontal iconbar-danger non-selectable">
+	<ul>
+		<li style="float: none;"><a> <%= result %></a></li>
+		<li style="float:right"><a class="fui-user">
+			<% if (markers > 0) { %>
+				<span class="iconbar-unread non-selectable"><%= markers %></span>
+			<% }; %>
+		</a></li>
+		<li style="float:right">
+			<% if (!playing) { %>
+				<a class="fui-play non-selectable play">
+			<% } else { %>
+				<a class="fui-pause non-selectable stop">
+			<% }; %>
+		</a></li>
+	</ul>
+</div>
