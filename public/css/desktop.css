@@ -129,5 +129,8 @@ h1 {
 
 /* Hide the video play button */
 .vjs-big-play-button {
-	display: none!important;
+	top: 5px!important;
+	left: 5px!important;
+	width: 55px!important;
+	height: 90%!important;
 }
