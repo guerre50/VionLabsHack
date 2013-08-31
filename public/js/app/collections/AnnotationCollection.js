@@ -10,7 +10,7 @@ define(["jquery","backbone", "App", "models/Annotation", "firebase", "backbone.f
       model: Annotation,
 
       initialize: function() {
-        this.firebase = app.firebase.child("videos/"+ app.movieId + "/annotations")
+        this.firebase = app.firebase.child("videos/"+ app.movieId + "/annotations");
       }
 
     });

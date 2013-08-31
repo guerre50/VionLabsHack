@@ -6,10 +6,6 @@ define(["jquery", "underscore", "backbone", "marionette", "views/AnnotationView"
 
         var AnnotationsView = Backbone.Marionette.CollectionView.extend({
             itemView: AnnotationView,
-
-            // The DOM Element associated with this view
-
-            // It binds elements to Jquery
             ui: {
 
             },
