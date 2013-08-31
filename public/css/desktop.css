@@ -136,6 +136,22 @@ h1 {
 .vjs-big-play-button {
 	top: 5px!important;
 	left: 5px!important;
-	width: 55px!important;
+	width: 45px!important;
 	height: 90%!important;
+}
+
+#studyList{
+	height: 80%;
+	position: fixed;
+	overflow-y: auto;
+	width:90%;
+}
+
+footer {
+	padding: 8px!important;
+	text-align: center;
+	font-size: 18px;
+	color: white!important;
+	bottom: 0;
+	height: 100%;
 }

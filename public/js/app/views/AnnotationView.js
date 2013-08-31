@@ -79,7 +79,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             },
 
             reproduce: function(play) {
-
                 console.log("play");
                 if(play) {
                     app.player.play();

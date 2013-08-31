@@ -7,8 +7,7 @@ define(["jquery", "underscore", "backbone", "marionette", "videojs", "firebase"]
 
         app.addRegions({
             "header": "#header",
-            "content": "#content",
-            "footer": "#footer"
+            "content": "#content"
         });
 
         app.addInitializer(function(options) {

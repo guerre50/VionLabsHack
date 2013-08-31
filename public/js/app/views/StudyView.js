@@ -6,7 +6,7 @@ define(["jquery", "underscore", "backbone", "marionette", "views/StudyItemView",
 
         var StudyView = Backbone.Marionette.CollectionView.extend({
             itemView: StudyItemView,
-
+            id:"studyList",
             // The DOM Element associated with this view
 
             // It binds elements to Jquery
