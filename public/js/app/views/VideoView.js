@@ -58,11 +58,13 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     self.subtitle = data.cues;
                 });
 
-                console.log("show");
+                // Generate QR
+                var qr = "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=http%3A//10.0.1.57:8001/%23" + self.model.get("id") + "&chld=H|0";
+                $('#example_video_1').attr('poster', qr);
 
                 videojs("example_video_1").ready(function(){
                     var myPlayer = this;
-                    myPlayer.play();
+                    //myPlayer.play();
 
                     app.player = self.player = myPlayer;
                     var movie_id = self.model.get("id");
@@ -72,7 +74,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     setInterval(self.annotation_highlighter, 400);
 
                     app.firebase.child('videos/' + movie_id + '/input').on('child_added', function(input) {
-                        
+
                         if(typeof(input.val().result) != 'undefined') {
                             return false;
                         }
