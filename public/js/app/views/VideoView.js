@@ -45,13 +45,15 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     self.subtitle = data.cues;
                 });
 
+                console.log("show");
+
                 videojs("example_video_1").ready(function(){
                     var myPlayer = this;
                     myPlayer.play();
 
+                    console.log("show");
                     self.player = myPlayer;
-
-                    var movie_id = 1337;
+                    var movie_id = self.model.get("id");
 
                     app.firebase.child('videos/' + movie_id + '/annotations').on('child_added', function(input) {
 
