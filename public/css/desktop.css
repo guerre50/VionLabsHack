@@ -36,3 +36,9 @@
 h1 {
 	text-align: center;
 }
+
+.thumbnail .iconbar {
+	width: 100%;
+	border-radius: 0 0 6px 6px;
+	margin: 0 !important;
+}
