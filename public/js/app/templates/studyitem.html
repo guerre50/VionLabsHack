@@ -1,5 +1,5 @@
 <div class="alert alert-info">
 	<h3> <%= result %> </h3>
-	<% _.each(subtitles, function(i) { _.each(i.split(/[ \n]+/), function(word){ var href = "http://glosbe.com/gapi/translate?from=eng&dest=eng&phrase=" + word + "&tm=true&pretty=true&format=json";%> <a href="<%= href %>"> <%= word %></a>  <% }); %> <br><% }); %>
+	<% _.each(subtitles, function(i) { _.each(i.split(/[ \n]+/), function(word){ var href = word.replace(/[,.?!]+/g, '').toLowerCase();%> <a href="#dict/<%= href %>"> <%= word %></a>  <% }); %> <br><% }); %>
 
 </div>

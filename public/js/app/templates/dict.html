@@ -1,0 +1,6 @@
+<div class="alert">
+    <h3> <%= word.phrase %> </h3>
+    <% _.each(word.tuc, function(def){ _.each(def.meanings, function(meaning){ %> <p> <%= meaning.text %> </p> <% })}) %>
+    <a href="#fakelink" class="btn btn-warning btn-wide">Okey, cool!</a>
+        
+</div>
