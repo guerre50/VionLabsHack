@@ -35,21 +35,17 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             {
                 $(document).trigger('render_annotations', this.player.currentTime());
 
+                // Disable scrolling when paused
+                if(this.player.paused()) {
+                    return;
+                }
+
+                // Nothign to scroll to
                 if(typeof $(".annotation-highlighted:first").position() == 'undefined') {
                     return;
                 }
                 
                 $('#annotations').scrollTo('.annotation-highlighted:first', {offsetTop: 200});
-
-               /* var pos = $(".annotation-highlighted:first").position().top;
-
-                console.log(pos);
-
-                if(pos > 0) {
-                    $('#annotations').animate({
-                        scrollTop: pos
-                    }, 20);
-                }*/
             },
 
             seek: function(timestamp) {
