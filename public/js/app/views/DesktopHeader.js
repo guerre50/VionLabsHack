@@ -8,10 +8,11 @@ define(["jquery", "underscore", "backbone", "marionette", "App", "text!templates
             template: _.template(template),
 
             events: {
-                "click .movies" : "movies"
+                "click .videos" : "videos"
             },
 
             movies: function() {
+                console.log("videos");
                 app.router.navigate("#videos", {trigger: true});
             }
         });

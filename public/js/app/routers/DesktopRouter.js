@@ -31,7 +31,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
 
             setDesktopTemplates: function() {
                 app.footer.show(new DesktopFooter());
-                app.header.show(new DesktopHeader());
+                //app.header.show(new DesktopHeader());
             },
 
             index: function() {

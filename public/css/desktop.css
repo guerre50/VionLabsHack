@@ -11,8 +11,41 @@
 	float: left;
 }
 
+#example_video_1 {
+	width: 100% !important;
+	height: 0 !important;
+	position: relative;
+	padding-bottom: 80%;
+}
+
+.non-selectable {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.iconbar {
+	width: 100%;
+}
+
+footer {
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+}
+
+header {
+	top: 0px;
+	position: relative;
+	width: 100%;
+}
+
 .thumbnail {
 	margin: 10px;
+	width: 374px !important;
 }
 .thumbnail img {
 	border-radius: 4px 4px 0 0;
