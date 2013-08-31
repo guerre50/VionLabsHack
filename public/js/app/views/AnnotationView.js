@@ -1,8 +1,8 @@
 // View.js
 // -------
-define(["jquery", "underscore", "backbone", "marionette", "models/Annotation", "text!templates/annotation.html"],
+define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotation", "text!templates/annotation.html"],
 
-    function($, _, Backbone, Marionette, Model, template){
+    function(app, $, _, Backbone, Marionette, Model, template){
 
         var AnnotationView = Backbone.Marionette.ItemView.extend({
             _playing: false,
@@ -37,6 +37,8 @@ define(["jquery", "underscore", "backbone", "marionette", "models/Annotation", "
 
             reproduce: function(play) {
                 this._playing = play;
+                console.log("trigger");
+                app.vent.trigger('seek', this.model.get('timestamp'));
                 this.render();
             }
 

@@ -27,7 +27,7 @@ define(["jquery", "underscore", "backbone", "marionette", "views/AnnotationView"
             // View Event Handlers
             events: {
 
-            },
+            }
 
         });
 
