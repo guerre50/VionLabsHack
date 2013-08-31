@@ -33,3 +33,9 @@
 .thumbnail:hover .overlay {
 	opacity: 100 !important;
 }
+
+.thumbnail .iconbar {
+	width: 100%;
+	border-radius: 0 0 6px 6px;
+	margin: 0 !important;
+}
