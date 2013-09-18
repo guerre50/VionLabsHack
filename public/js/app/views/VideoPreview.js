@@ -13,6 +13,7 @@ define(["jquery", "underscore", "backbone", "App", "marionette", "models/Model",
                 }
                 data.users = this.random();
                 data.quote = this.random();
+
                 this.updateMax(data.quote, "Quote");
                 data.vocabulary = this.random();
                 this.updateMax(data.vocabulary, "Vocabulary");
@@ -20,7 +21,7 @@ define(["jquery", "underscore", "backbone", "App", "marionette", "models/Model",
                 this.updateMax(data.pronunciation, "Pronunciation");
                 data.none = this.random();
                 this.updateMax(data.none, "None");
-
+                console.log(data);
                 data.categoryColor = app.colors[this.maxCategoryName];
                 return _.template(template, data);
             },

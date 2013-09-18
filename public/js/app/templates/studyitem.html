@@ -1,4 +1,4 @@
-<div class="alert alert-info">
+<div class="alert alert-info study-item">
 	<h3> <%= result %> </h3>
 	<% _.each(subtitles, function(i) { _.each(i.split(/[ \n]+/), function(word){ var href = word.replace(/[,.?!]+/g, '').toLowerCase();%> <a href="#dict/<%= href %>"> <%= word %></a>  <% }); %> <br><% }); %>
 

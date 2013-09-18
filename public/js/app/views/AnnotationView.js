@@ -39,6 +39,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
                     currentTime = this._current_time, 
                     highlighted = (typeof(time) != 'undefined' && currentTime < time + 1 && currentTime > time-3.5);
 
+                
                 this.ui.annotationDiv.toggleClass("annotation-highlighted", highlighted);
                 if (!this._playing) {
                     this.ui.playingIcon[0].className ="playing-icon fui-play non-selectable play";
@@ -73,7 +74,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
             },
 
             onRender: function() {
-                this.$('.dropdown-toggle').dropdown('toggle');
+                //this.$('.dropdown-toggle').dropdown('toggle');
             },
 
             reproduce: function(play) {
@@ -85,9 +86,11 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Annotat
                 }
 
                 this._playing = play;
-                console.log(this._playing);
                 this.renderWithoutRestart();
-                //this.render();
+            },
+
+            onClose: function() {
+                $(document).off('render_annotations');
             },
 
             getCategoryData: function(category) {

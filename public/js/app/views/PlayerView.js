@@ -24,7 +24,7 @@ define(["jquery", "underscore", "App", "backbone", "marionette", "text!templates
                 if (this.movie) {
                     this.video.show(new VideoView(this.movie));
                     
-                    // Moviw id hack
+                    // Movie id hack
                     app.movieId = this.movie.get("id");
                     this.annotations.show(new AnnotationsView({"collection": new AnnotationCollection()}));
                 }

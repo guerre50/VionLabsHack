@@ -16,14 +16,13 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
 
             // All of your Backbone Routes (add more)
             routes: {
-
-                // When there is no hash on the url, the home method is called
-                "": "index",
+                "": "videos",
                 "realtime": "realtime",
                 "test": "test",
                 "player": "player",
                 "videos": "videos",
                 "videos/:id": "videos",
+                "videos/": "videos",
                 "study/:id": "study",
                 "dict/:word": "dictionary",
                 "populate": "populateDB"
@@ -32,7 +31,7 @@ define(["jquery", "backbone", "marionette",  "App", "views/LandingView", "views/
             },
 
             setDesktopTemplates: function() {
-                app.footer.show(new DesktopFooter());
+                //app.footer.show(new DesktopFooter());
                 //app.header.show(new DesktopHeader());
             },
 

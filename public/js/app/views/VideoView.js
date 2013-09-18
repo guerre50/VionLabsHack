@@ -1,6 +1,6 @@
 // View.js
 // -------
-define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video", "text!templates/video.html"],
+define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video", "text!templates/video.html", "videojs"],
 
     function(app, $, _, Backbone, Marionette, Model, template){
 
@@ -33,6 +33,7 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
 
             annotation_highlighter: function()
             {
+                if (!this.player) return;
                 $(document).trigger('render_annotations', this.player.currentTime());
 
                 // Disable scrolling when paused
@@ -49,62 +50,74 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
             },
 
             seek: function(timestamp) {
-                this.player.currentTime(timestamp);
+                app.player.currentTime(timestamp);
             },
 
             onShow: function() {
                 var self = this;
-                $.getJSON('../../../movies/modernfamily.json', function(data) {
+
+
+                $.getJSON('./movies/modernfamily.json', function(data) {
                     self.subtitle = data.cues;
                 });
+                var location = window.location;
+                var address = location.href.substring(0, location.href.indexOf('#')) + "%23";
 
                 // Generate QR
-                var qr = "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=http%3A//10.0.1.57:8001/%23" + self.model.get("id") + "&chld=H|0";
+                var qr = "http://chart.apis.google.com/chart?cht=qr&chs=300x300&chl=" + address  + self.model.get("id") + "&chld=H|0";
                 $('#example_video_1').attr('poster', qr);
 
-                videojs("example_video_1").ready(function(){
-                    var myPlayer = this;
-                    //myPlayer.play();
+                var video = videojs("example_video_1", {}, function() {
+                    self.setVideo(this, self);
+                });
+                
 
-                    app.player = self.player = myPlayer;
-                    var movie_id = self.model.get("id");
+            },
 
-                    // Start loop
-                    setInterval(self.annotation_highlighter, 400);
+            setVideo: function(video, self) {
+                var myPlayer = video;
 
-                    app.firebase.child('videos/' + movie_id + '/input').on('child_added', function(input) {
+                app.player = self.player = myPlayer;
+                var movie_id = self.model.get("id");
 
-                        if(typeof(input.val().result) != 'undefined') {
-                            return false;
-                        }
+                // Start loop
+                setInterval(self.annotation_highlighter, 400);
 
-                        var time = myPlayer.currentTime();
-                        var subtitles = self.getSubtitlesAt(time);
-                        var result = subtitles[0];
+                app.firebase.child('videos/' + movie_id + '/input').on('child_added', function(input) {
 
-                        if(typeof(result) == 'undefined') {
-                            return false;
-                        }
+                    if(typeof(input.val().result) != 'undefined') {
+                        return false;
+                    }
 
-                        // Save subtitles
-                        app.firebase.child('videos/' + movie_id + '/annotations/').push({
-                            'result': result,
-                            'subtitles': subtitles,
-                            'time': time,
-                            'markers': 32,
-                            'playing': false
-                        });
+                    var time = myPlayer.currentTime();
+                    var subtitles = self.getSubtitlesAt(time);
+                    var result = subtitles[0];
 
-                        app.firebase.child('videos/' + movie_id + '/input/' + input.name()).remove();
+                    if(typeof(result) == 'undefined') {
+                        return false;
+                    }
+
+                    // Save subtitles
+                    app.firebase.child('videos/' + movie_id + '/annotations/').push({
+                        'result': result,
+                        'subtitles': subtitles,
+                        'time': time,
+                        'markers': 32,
+                        'playing': false
                     });
 
+                    app.firebase.child('videos/' + movie_id + '/input/' + input.name()).remove();
                 });
-
-
             },
 
             // View Event Handlers
             events: {
+            },
+
+            onClose: function() {
+                this.player = null;
+                clearInterval(self.annotation_highlighter);
+                app.player.dispose();
             },
 
             on_keypress: function(e) {
@@ -115,7 +128,6 @@ define(["App", "jquery", "underscore", "backbone", "marionette", "models/Video",
                     var roundedTimeInSec = Math.round(this.player.currentTime());
                     this.getSubtitlesAt(roundedTimeInSec);
                 }
-                
             },
 
             getSubtitlesAt: function (intSec) {
